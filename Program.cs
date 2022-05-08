@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Gtk;
 
-namespace Pisscord {
+namespace Quarrel {
     class Program {
 
         public static string Url = "http://homeworktrack.serble.net:9898/api/";
@@ -13,7 +13,7 @@ namespace Pisscord {
         public static void Main(string[] args) {
             Application.Init();
 
-            Application app = new Application("org.Pisscord.Pisscord", GLib.ApplicationFlags.None);
+            Application app = new Application("net.serble.quarrel.Quarrel", GLib.ApplicationFlags.None);
             app.Register(GLib.Cancellable.Current);
 
             LoginWindow window = new LoginWindow();

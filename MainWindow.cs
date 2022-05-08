@@ -2,7 +2,7 @@ using System;
 using Gtk;
 using UI = Gtk.Builder.ObjectAttribute;
 
-namespace Pisscord {
+namespace Quarrel {
     class MainWindow : Window {
         [UI] private Label label1 = null;
 

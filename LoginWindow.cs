@@ -4,7 +4,7 @@ using System.Net.Http;
 using Gtk;
 using UI = Gtk.Builder.ObjectAttribute;
 
-namespace Pisscord {
+namespace Quarrel {
     public class LoginWindow : Window {
         [UI] private Button loginButton = null;
         [UI] private Button registerButton = null;
